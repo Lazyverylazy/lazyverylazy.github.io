@@ -1,0 +1,82 @@
+/* Estilo para el encabezado */
+header {
+    background-color: #8f99b9;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+header p {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Estilo para el perfil profesional */
+main h2:first-of-type {
+    border-bottom: 2px solid #333;
+    margin-top: 50px;
+}
+
+/* Estilo para la lista de experiencia laboral */
+main ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+main ul li {
+    margin-bottom: 30px;
+}
+
+main ul li h3 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+main ul li p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Estilo para la sección de habilidades */
+main ul:last-of-type {
+    margin-top: 50px;
+}
+
+main ul:last-of-type li {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilo para los encabezados */
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilo para el texto general */
+body, p, li {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
